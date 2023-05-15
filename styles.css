@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+/* assigned to hero and footer */
+.hero-color {
+    background-color: #1F2937;
+}
+/* assigned to Hero Main Text */
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+/* assigned to Hero Secondary text, and Header Link Text */
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* assigned to Header Logo Text */
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+/* assigned to Button and call to action - sign up */
+.button-color, .call-to-action {
+    background-color: #3882F6;
+}
+
+.button-color {
+    border: 1px solid white;
+}
+/* assigned to header text - 'some random information' */
+.information-header-text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+/* assigned to div on quote section */
+.quote-section {
+    background-color: #E5E7EB;
+}
+/* assigned to p on quote section */
+.quote-section-text {
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1F2937;
+}
+
+/* end of COLORS AND FONT STYLES  */
+
+.navigation-bar {
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    border: 1px solid green;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+    border: 1px solid yellow;
+}
+
+.header-div {
+    border: 1px solid yellow;
+
+    display: flex;
+}
+
+.header-div-primary {
+    border: 1px solid orange;
+
+}
+
+.header-div-secondary {
+    border: 1px solid violet;
+
+    background-color: grey;
+}
